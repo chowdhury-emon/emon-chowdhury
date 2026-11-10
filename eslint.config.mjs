@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored ReactBits registry components (JS + CSS registry output).
+    "components/reactbits/**",
   ]),
 ]);
 
